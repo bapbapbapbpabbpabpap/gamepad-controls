@@ -334,8 +334,8 @@ genmenu(
 
 
 
-genmenu("utools", "radar", "cloudplant", "blal", "BatSaber", "Pagoda")
-genmenu("atools", "Infinite Gravity Gun", "ASCENSIONIST", "Immortality Lord", "NORMALIFYSCENSIONIST", "Megaphone", "Lost", "STAR GLITCHER")
+genmenu("utools", "radar", "cloudplant", "blal", "Pagoda")
+genmenu("atools", "Infinite Gravity Gun", "ASCENSIONIST", "Immortality Lord", "NORMALIFYSCENSIONIST", "Megaphone", "Lost")
 
 genmenu("options", "Equip after received: false")
 
@@ -347,6 +347,11 @@ parasol
 - Yuuka Umbrella
 - cogloss
 - Remi Umbrella
+BatSaber
+- bsblue
+- bsgreen
+- bsred
+- bsbaseball
 ]]
 
 local function tweenAppear()
@@ -850,6 +855,12 @@ local function hotkeyGiver(v)
             itemGiver("BatSaber", "bsgreen")
         elseif v == k6 then
             itemGiver("BatSaber", "bsbaseball")
+        elseif v == k7 then
+
+        elseif v == k8 then
+
+        elseif v == k9 then
+
        end
 
 
@@ -952,9 +963,9 @@ local function hotkeyGiver(v)
         elseif v == k3 then
             itemGiver("blal")
         elseif v == k4 then
-            itemGiver("BatSaber")
-        elseif v == k5 then
             itemGiver("Pagoda")
+        elseif v == k5 then
+
         elseif v == k6 then
 
         elseif v == k7 then
@@ -981,7 +992,7 @@ local function hotkeyGiver(v)
         elseif v == k6 then
             itemGiver("Lost")
         elseif v == k7 then
-            itemGiver("STAR GLITCHER")
+
         elseif v == k8 then
 
         elseif v == k9 then
